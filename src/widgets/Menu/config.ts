@@ -144,17 +144,12 @@ export const socials = [
   {
     label: "Discord",
     icon: "TelegramIcon",
-    items: [
-      {
-        label: "English",
-        href: "https://t.me/ChirpFinance",
-      },
-    ],
+    href: "https://t.me/boobsdotfinance",
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/ChirpFinance",
+    href: "https://twitter.com/boobsdotfinance",
   },
 ];
 
