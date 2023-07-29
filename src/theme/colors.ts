@@ -26,9 +26,9 @@ export const lightColors: Colors = {
   input: "#eeeaf4",
   inputSecondary: "#d7caec",
   tertiary: "#EFF4F5",
-  text: "rgb(226, 239, 252)",
+  text: "#0153ff",
   textDisabled: "#BDC2C4",
-  textSubtle: "rgb(226, 239, 252)",
+  textSubtle: "#0153ff",
   borderColor: "#E9EAEB",
   gradients: {
     bubblegum:
@@ -52,12 +52,12 @@ export const darkColors: Colors = {
   dropdown: "#1E1D20",
   invertedContrast: "#191326",
   input: "#121212",
-  inputSecondary: "rgb(226, 239, 252)",
+  inputSecondary: "#0153ff",
   primaryDark: "#97161e",
   tertiary: "#353547",
   text: "#e2effc",
   textDisabled: "#666171",
-  textSubtle: "rgb(226, 239, 252)",
+  textSubtle: "#0153ff",
   borderColor: "#524B63",
   gradients: {
     bubblegum:
