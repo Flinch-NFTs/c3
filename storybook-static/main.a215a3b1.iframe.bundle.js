@@ -60,8 +60,8 @@
           )),
         baseColors = {
           failure: "#ED4B9E",
-          primary: "rgb(226, 239, 252)",
-          primaryBright: "rgb(226, 239, 252)",
+          primary: "#0153ff",
+          primaryBright: "#0153ff",
           primaryDark: "#351617",
           secondary: "#97161e",
           success: "#31D0AA",
@@ -78,9 +78,9 @@
           input: "#eeeaf4",
           inputSecondary: "#d7caec",
           tertiary: "#EFF4F5",
-          text: "rgb(226, 239, 252)",
+          text: "#0153ff",
           textDisabled: "#BDC2C4",
-          textSubtle: "rgb(226, 239, 252)",
+          textSubtle: "#0153ff",
           borderColor: "#E9EAEB",
           gradients: {
             bubblegum:
@@ -100,12 +100,12 @@
           dropdown: "#1E1D20",
           invertedContrast: "#191326",
           input: "#121212",
-          inputSecondary: "rgb(226, 239, 252)",
+          inputSecondary: "#0153ff",
           primaryDark: "#97161e",
           tertiary: "#353547",
           text: "#e2effc",
           textDisabled: "#666171",
-          textSubtle: "rgb(226, 239, 252)",
+          textSubtle: "#0153ff",
           borderColor: "#524B63",
           gradients: {
             bubblegum:
@@ -113,8 +113,7 @@
             cardHeader: "linear-gradient(166.77deg, #070707 0%, #3A3045 100%)",
             blue: "linear-gradient(180deg, #070707 0%, #19778C 100%)",
             violet: "linear-gradient(180deg, #070707 0%, #6D4DB2 100%)",
-            violetAlt:
-              "linear-gradient(180deg, #070707 0%, rgb(226, 239, 252) 100%)",
+            violetAlt: "linear-gradient(180deg, #070707 0%, #0153ff 100%)",
           },
         }),
         light = { background: lightColors.backgroundAlt },
@@ -24930,7 +24929,7 @@
           warning:
             "0px 0px 0px 1px #ED4B9E, 0px 0px 0px 4px rgba(237, 75, 158, 0.2)",
           focus:
-            "0px 0px 0px 1px rgb(226, 239, 252), 0px 0px 0px 4px rgba(6, 117, 177, 0.6)",
+            "0px 0px 0px 1px #0153ff, 0px 0px 0px 4px rgba(6, 117, 177, 0.6)",
           inset: "inset 0px 2px 2px -1px rgba(74, 74, 104, 0.1)",
         };
       __webpack_exports__.b = {
