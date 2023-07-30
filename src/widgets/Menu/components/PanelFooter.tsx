@@ -18,7 +18,7 @@ const Container = styled.div`
   border-top: solid 2px rgba(133, 133, 133, 0.1);
 
   #emme {
- //   display: none !important;
+    //   display: none !important;
   }
 `;
 
@@ -64,14 +64,6 @@ const PanelFooter: React.FC<Props> = ({
         <CakePrice cakePriceUsd={cakePriceUsd} />
         <SocialLinks />
       </SocialEntry>
-      <SettingsEntry id="emme">
-        <ThemeSwitcher isDark={isDark} toggleTheme={toggleTheme} />
-        <LangSelector
-          currentLang={currentLang}
-          langs={langs}
-          setLang={setLang}
-        />
-      </SettingsEntry>
     </Container>
   );
 };
