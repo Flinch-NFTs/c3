@@ -16,6 +16,10 @@ const Container = styled.div`
   padding: 8px 4px;
   background-color: ${({ theme }) => theme.nav.background};
   border-top: solid 2px rgba(133, 133, 133, 0.1);
+
+  .emme {
+    display: none !important;
+  }
 `;
 
 const SettingsEntry = styled.div`
@@ -60,6 +64,14 @@ const PanelFooter: React.FC<Props> = ({
         <CakePrice cakePriceUsd={cakePriceUsd} />
         <SocialLinks />
       </SocialEntry>
+      <SettingsEntry className="emme">
+        <ThemeSwitcher isDark={isDark} toggleTheme={toggleTheme} />
+        <LangSelector
+          currentLang={currentLang}
+          langs={langs}
+          setLang={setLang}
+        />
+      </SettingsEntry>
     </Container>
   );
 };
