@@ -18,7 +18,7 @@ const Container = styled.div`
   border-top: solid 2px rgba(133, 133, 133, 0.1);
 
   #emme {
-    display: none !important;
+ //   display: none !important;
   }
 `;
 
