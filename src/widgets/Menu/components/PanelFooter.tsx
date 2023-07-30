@@ -17,7 +17,7 @@ const Container = styled.div`
   background-color: ${({ theme }) => theme.nav.background};
   border-top: solid 2px rgba(133, 133, 133, 0.1);
 
-  .emme {
+  #emme {
     display: none !important;
   }
 `;
@@ -64,7 +64,7 @@ const PanelFooter: React.FC<Props> = ({
         <CakePrice cakePriceUsd={cakePriceUsd} />
         <SocialLinks />
       </SocialEntry>
-      <SettingsEntry className="emme">
+      <SettingsEntry id="emme">
         <ThemeSwitcher isDark={isDark} toggleTheme={toggleTheme} />
         <LangSelector
           currentLang={currentLang}
